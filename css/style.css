@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+
+body > *:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+/* Article */
+.article {
+  background-color: #f8f8f8;
+  font-family: "Proxima Nova", sans-serif;
+  color: #2b2929;
+}
+.article__container > *:not(:last-child) {
+  margin-bottom: 40px;
+}
+.article__container {
+  max-width: 1070px;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+.article__title {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.article__image {
+}
+.article__text {
+  line-height: 1.875;
+}
+.article__text p:not(:last-child) {
+  margin-bottom: 10px;
+}
+.article__assortment {
+}
+.assortment {
+}
+.assortment__title {
+  font-weight: 600;
+  line-height: 1.4;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.assortment__list {
+}
+.assortment__item {
+  margin-bottom: 20px;
+  line-height: 1.875;
+}
+.article__sum-up {
+  line-height: 1.875;
+}
+
+/* Krovato */
+.krovato {
+  background-color: #f8f8f8;
+  font-family: "Proxima Nova", sans-serif;
+  color: #2b2929;
+}
+.krovato__container {
+  max-width: 1290px;
+  padding: 70px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.krovato__title {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.krovato__columns {
+  font-size: 0;
+}
+.krovato__column {
+}
+.column-krovato {
+  vertical-align: top;
+  font-size: 16px;
+  display: inline-block;
+  max-width: 300px;
+  text-align: center;
+}
+.column-krovato:not(:last-child) {
+  margin-right: 30px;
+}
+.column-krovato > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+.column-krovato__icon {
+}
+.column-krovato__title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.30769231;
+}
+.column-krovato__text {
+  line-height: 1.875;
+}
+
+/* Follow */
+.follow {
+  padding: 100px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: rgba(30, 40, 50, 0.05);
+}
+.follow__container {
+  max-width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+}
+.follow__title {
+  font-size: 50px;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+.follow__items {
+  font-size: 0;
+}
+.follow__item {
+  font-size: 16px;
+  display: inline-block;
+}
+.follow__item:not(:last-child) {
+    margin-right: 24px;
+}
